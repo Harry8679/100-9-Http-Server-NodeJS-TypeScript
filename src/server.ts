@@ -11,7 +11,7 @@ import {
   deleteUserHandler,
 } from './handlers/users.handler';
 
-const PORT   = process.env.PORT ? parseInt(process.env.PORT) : 3000;
+const PORT   = process.env.PORT ? parseInt(process.env.PORT) : 6000;
 const router = new Router();
 
 // ─── Middlewares ──────────────────────────────────────
